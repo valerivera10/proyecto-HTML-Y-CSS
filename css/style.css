@@ -1,0 +1,58 @@
+@import url(variables.css);
+
+:root {
+    --color-body: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    background-color: rgb(78, 78, 201);
+}
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+header nav ul{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+header nav ul li a {
+    text-decoration: none;
+    justify-content: space-between;
+    color: black;
+    margin: 50px;
+}
+
+/* productos */
+.productos {
+    background-color: rgb(189, 76, 76);
+}
+
+.producto {
+    display: flex;
+}
+.cajaDerecha {
+    width: 100%;
+    height: 80%;
+}
+.cajaDerecha img {
+    display: flex;
+    width: 300px;
+    height: 400px;
+    
+}
