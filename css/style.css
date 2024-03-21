@@ -1,9 +1,3 @@
-@import url(variables.css);
-
-:root {
-    --color-body: white;
-
-}
 
 * {
     margin: 0;
@@ -12,19 +6,22 @@
 }
 
 body {
-    background: white;
+    background: rgb(255, 255, 255);
 }
 header {
     display: flex;
     width: 100%;
+    height: 100px;
     flex-direction: row;
-    background-color: rgb(78, 78, 201);
+    background-color: rgb(239, 174, 255);
 }
 header nav {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 30px;
+    position: relative;
+    right: -20px;
 }
 header nav ul{
     display: flex;
@@ -35,58 +32,78 @@ header nav ul li a {
     text-decoration: none;
     justify-content: space-between;
     color: black;
-    margin: 50px;
+    margin: 55px;
+    font-size: 25px;
 }
 
 /* productos */
 .productos {
     /*background-color: rgb(189, 76, 76);*/
-    margin: 20px;
+    margin: 25px;
+    border-radius: 200px;
 }
 
 .producto {
     display: flex;
     width: 1800px;
     height: 600px;
-    background: rgb(221, 80, 80);
-    padding: 15px;
+    background: rgb(255, 160, 160);
+    
+}
+.img-Chikis {
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    right: -140px;
+    width: 100px;
+}
+.img-Chikis img {
+    flex-direction: row;
+    width: 130px;
+    height: 130px;
+    background-color: black;
+    border-radius: 20px;
+    border: black solid 4px;
 }
 .cajaIzquierda {
    width: 80%;
    height: 50%;
 }
+
 .cajaIzquierda img {
     display: flex;
     width: 400px;
     height: 500px;
     position: relative;
     top: 70px;
-    right: -300px;
+    right: -250px;
+    border-radius: 20px;
+    border: black solid 10px;
 }
 
 .cajaDerecha {
-    width: 700px;
+    width: 800px;
     position: relative;
-    top: 120px;
+    top: 100px;
     right: 400px;
 }
 .titulo {
     font-size: 30px;
-    margin: 10px;
+    margin: 15px;
 }
 .texto {
     font-size: 20px;
-    margin: 10px;
+    margin: 15px;
 }
 .precio {
     font-size: 40px;
-    margin: 10px;
+    margin: 15px;
 }
 button {
     width: 150px;
     height: 50px;
     font-size: 20px;
-    margin: 10px;
+    margin: 15px;
     background-color: rgb(175, 175, 175);
     cursor: pointer;
 }
